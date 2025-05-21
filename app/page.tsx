@@ -22,7 +22,7 @@ export default function Home() {
   return (
     <div className="flex min-h-screen flex-col">
       <header className="sticky top-0 z-40 border-b bg-background">
-        <div className="container flex h-16 items-center justify-between py-4">
+        <div className="container flex h-16 items-center justify-between py-4 px-4 md:px-6">
           <div className="flex items-center gap-2 pl-4 md:pl-6">
             <span className="text-xl">
               <span className="font-black">G<span className="text-indigo-600">.</span></span>
@@ -171,7 +171,7 @@ export default function Home() {
                   </div>
                   <CardTitle className="mt-4">Instalación de Programas</CardTitle>
                   <CardDescription>
-                    Instalamos y configuramos todos los programas que necesitas para tu trabajo o uso personal.
+                    Instalación y configuración todos los programas que necesitas para tu trabajo o uso personal.
                   </CardDescription>
                 </CardHeader>
                 <CardContent>
@@ -206,7 +206,7 @@ export default function Home() {
               <div className="space-y-2">
                 <h2 className="text-3xl font-bold tracking-tighter sm:text-5xl">¿Por qué elegir <span className="font-black">G<span className="text-indigo-600">.</span></span> TecnoServicio?</h2>
                 <p className="max-w-[900px] text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
-                  Nuestro servicio se destaca por la calidad, rapidez y atención personalizada
+                  Mi servicio se destaca por la calidad, rapidez y atención personalizada, siendo claro y transparente en cada paso del proceso.
                 </p>
               </div>
             </div>
@@ -472,7 +472,7 @@ export default function Home() {
         <div className="container flex flex-col items-center justify-between gap-4 md:h-24 md:flex-row">
           <div className="flex items-center gap-2 pl-4 md:pl-6">
             <span className="font-black">G<span className="text-indigo-600">.</span></span>
-            <span className="font-bold hidden md:inline"> TecnoServicio</span>
+            <span className="font-bold"> TecnoServicio</span>
           </div>
           <p className="text-center text-sm leading-loose text-muted-foreground md:text-left">
             © {new Date().getFullYear()} G. TecnoServicio. Todos los derechos reservados.
