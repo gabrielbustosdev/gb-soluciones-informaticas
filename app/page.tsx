@@ -53,7 +53,7 @@ export default function Home() {
         </div>
       </header>
       <main className="flex-1">
-        <section className="w-full py-12 md:py-24 lg:py-32 bg-muted">
+        <section className="w-full py-12 md:py-24 lg:py-32 bg-indigo-50">
           <div className="container px-4 md:px-6">
             <div className="grid gap-6 lg:grid-cols-2 lg:gap-12 items-center">
               <div className="space-y-4">
@@ -200,7 +200,7 @@ export default function Home() {
           </div>
         </section>
 
-        <section id="beneficios" className="w-full py-12 md:py-24 lg:py-32 bg-muted">
+        <section id="beneficios" className="w-full py-12 md:py-24 lg:py-32 bg-indigo-50">
           <div className="container px-4 md:px-6">
             <div className="flex flex-col items-center justify-center space-y-4 text-center">
               <div className="space-y-2">
@@ -371,7 +371,7 @@ export default function Home() {
           </div>
         </section>
 
-        <section id="contacto" className="w-full py-12 md:py-24 lg:py-32 bg-muted">
+        <section id="contacto" className="w-full py-12 md:py-24 lg:py-32 bg-indigo-50">
           <div className="container px-4 md:px-6">
             <div className="flex flex-col items-center justify-center space-y-4 text-center">
               <div className="space-y-2">
@@ -459,7 +459,7 @@ export default function Home() {
                     </label>
                     <Textarea id="mensaje" placeholder="Describe brevemente tu necesidad" />
                   </div>
-                  <Button type="submit" className="w-full">
+                  <Button type="submit" className="w-full bg-indigo-600 text-white hover:bg-indigo-700 focus:ring-4 focus:ring-indigo-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center">
                     Enviar Solicitud
                   </Button>
                 </form>
