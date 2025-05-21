@@ -114,7 +114,7 @@ export default function Home() {
                   <ul className="space-y-2 text-left">
                     <li className="flex items-center">
                       <CheckCircle className="mr-2 h-4 w-4 text-primary" />
-                      <span>Windows original</span>
+                      <span>Windows original/activado</span>
                     </li>
                     <li className="flex items-center">
                       <CheckCircle className="mr-2 h-4 w-4 text-primary" />
@@ -273,7 +273,7 @@ export default function Home() {
                 <CardHeader>
                   <CardTitle>Instalación de Windows</CardTitle>
                   <CardDescription>Instalación limpia con actualizaciones</CardDescription>
-                  <div className="text-3xl font-bold">$XX</div>
+                  <div className="text-3xl font-bold">$30.000</div>
                 </CardHeader>
                 <CardContent>
                   <ul className="space-y-2">
@@ -301,13 +301,13 @@ export default function Home() {
                 <CardHeader>
                   <CardTitle>Cambio a SSD + Windows</CardTitle>
                   <CardDescription>Paquete completo de actualización</CardDescription>
-                  <div className="text-3xl font-bold">$XX</div>
+                  <div className="text-3xl font-bold">$75.000</div>
                 </CardHeader>
                 <CardContent>
                   <ul className="space-y-2">
                     <li className="flex items-center">
                       <CheckCircle className="mr-2 h-4 w-4 text-primary" />
-                      <span>SSD 240GB/480GB</span>
+                      <span>SSD 120GB/240GB</span>
                     </li>
                     <li className="flex items-center">
                       <CheckCircle className="mr-2 h-4 w-4 text-primary" />
@@ -333,13 +333,13 @@ export default function Home() {
                 <CardHeader>
                   <CardTitle>Paquete Completo</CardTitle>
                   <CardDescription>Solución integral para tu PC</CardDescription>
-                  <div className="text-3xl font-bold">$XX</div>
+                  <div className="text-3xl font-bold">$140.000</div>
                 </CardHeader>
                 <CardContent>
                   <ul className="space-y-2">
                     <li className="flex items-center">
                       <CheckCircle className="mr-2 h-4 w-4 text-primary" />
-                      <span>SSD 480GB/1TB</span>
+                      <span>SSD 480GB</span>
                     </li>
                     <li className="flex items-center">
                       <CheckCircle className="mr-2 h-4 w-4 text-primary" />
