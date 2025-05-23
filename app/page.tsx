@@ -4,6 +4,7 @@ import { Button } from "@/components/ui/button"
 import { Card, CardContent, CardDescription, CardFooter, CardHeader, CardTitle } from "@/components/ui/card"
 import { Input } from "@/components/ui/input"
 import { Textarea } from "@/components/ui/textarea"
+import { WhatsAppButton } from "@/components/WhatsAppButton"
 import {
   HardDrive,
   Monitor,
@@ -17,6 +18,7 @@ import {
   Mail,
   MapPin,
 } from "lucide-react"
+
 
 export default function Home() {
   return (
@@ -43,13 +45,12 @@ export default function Home() {
               Contacto
             </Link>
           </nav>
-          <Link href="#contacto">
-            <Button
-              className="bg-indigo-600 text-white hover:bg-indigo-700 focus:ring-4 focus:ring-indigo-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center"
-            >
-              Solicitar Servicio
-            </Button>
-          </Link>
+          <WhatsAppButton
+            message="Hola, quiero más información sobre el servicio técnico de PC"
+            phone={"5493571595365"}
+          >
+            Solicitar Servicio
+          </WhatsAppButton>
         </div>
       </header>
       <main className="flex-1">
@@ -127,9 +128,13 @@ export default function Home() {
                   </ul>
                 </CardContent>
                 <CardFooter>
-                  <Link href="#contacto" className="w-full">
-                    <Button className="w-full">Solicitar</Button>
-                  </Link>
+                  <WhatsAppButton
+                    message="Hola, quiero solicitar el servicio de Instalación de Windows"
+                    phone={"5493571595365"}
+                    className="w-full"
+                  >
+                    Solicitar
+                  </WhatsAppButton>
                 </CardFooter>
               </Card>
               <Card className="text-center">
@@ -159,9 +164,13 @@ export default function Home() {
                   </ul>
                 </CardContent>
                 <CardFooter>
-                  <Link href="#contacto" className="w-full">
-                    <Button className="w-full">Solicitar</Button>
-                  </Link>
+                  <WhatsAppButton
+                    message="Hola, quiero solicitar el servicio de HDD a SSD"
+                    phone={"5493571595365"}
+                    className="w-full"
+                  >
+                    Solicitar
+                  </WhatsAppButton>
                 </CardFooter>
               </Card>
               <Card className="text-center">
@@ -191,9 +200,13 @@ export default function Home() {
                   </ul>
                 </CardContent>
                 <CardFooter>
-                  <Link href="#contacto" className="w-full">
-                    <Button className="w-full">Solicitar</Button>
-                  </Link>
+                  <WhatsAppButton
+                    message="Hola, quiero solicitar el servicio de Instalación de Programas"
+                    phone={"5493571595365"}
+                    className="w-full"
+                  >
+                    Solicitar
+                  </WhatsAppButton>
                 </CardFooter>
               </Card>
             </div>

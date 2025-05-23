@@ -24,8 +24,8 @@ export default function RootLayout({
         <ThemeProvider attribute="class" defaultTheme="light" enableSystem disableTransitionOnChange>
           {children}
           <Analytics />
+          <SpeedInsights />
         </ThemeProvider>
-        <SpeedInsights />
       </body>
     </html>
   )
