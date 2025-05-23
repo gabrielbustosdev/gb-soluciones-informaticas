@@ -46,8 +46,9 @@ export default function Home() {
             </Link>
           </nav>
           <WhatsAppButton
-            message="Hola, quiero más información sobre el servicio técnico de PC"
+            message="Hola, quiero solicitar servicio técnico de PC"
             phone={"5493571595365"}
+            className="hidden md:flex items-center gap-2 bg-indigo-600 text-white hover:bg-indigo-700 focus:ring-4 focus:ring-indigo-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center"
           >
             Solicitar Servicio
           </WhatsAppButton>
@@ -305,9 +306,13 @@ export default function Home() {
                   </ul>
                 </CardContent>
                 <CardFooter>
-                  <Link href="#contacto" className="w-full">
-                    <Button className="w-full">Solicitar</Button>
-                  </Link>
+                  <WhatsAppButton
+                    message="Hola, quiero solicitar el servicio de Instalación de Windows"
+                    phone={"5493571595365"}
+                    className="w-full"
+                  >
+                    Solicitar
+                  </WhatsAppButton>
                 </CardFooter>
               </Card>
               <Card className="border-primary">
@@ -337,9 +342,13 @@ export default function Home() {
                   </ul>
                 </CardContent>
                 <CardFooter>
-                  <Link href="#contacto" className="w-full">
-                    <Button className="w-full">Solicitar</Button>
-                  </Link>
+                  <WhatsAppButton
+                    message="Hola, quiero solicitar el servicio de Cambio a SSD + Windows"
+                    phone={"5493571595365"}
+                    className="w-full"
+                  >
+                    Solicitar
+                  </WhatsAppButton>
                 </CardFooter>
               </Card>
               <Card>
@@ -369,9 +378,13 @@ export default function Home() {
                   </ul>
                 </CardContent>
                 <CardFooter>
-                  <Link href="#contacto" className="w-full">
-                    <Button className="w-full">Solicitar</Button>
-                  </Link>
+                  <WhatsAppButton
+                    message="Hola, quiero solicitar el servicio de Paquete Completo"
+                    phone={"5493571595365"}
+                    className="w-full"
+                  >
+                    Solicitar
+                  </WhatsAppButton>
                 </CardFooter>
               </Card>
             </div>
