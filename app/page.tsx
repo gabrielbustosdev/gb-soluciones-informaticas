@@ -26,7 +26,7 @@ export default function Home() {
       <header className="sticky top-0 z-40 border-b bg-background">
         <div className="container flex h-16 items-center justify-between py-4 px-4 md:px-6">
           <div className="flex items-center gap-2 pl-4 md:pl-6">
-            <span className="text-xl">
+            <span className="text-4xl md:text-2xl">
               <span className="font-black">G<span className="text-indigo-600">.</span></span>
               <span className="font-bold hidden md:inline"> Soluciones Informáticas</span>
             </span>
@@ -48,7 +48,7 @@ export default function Home() {
           <WhatsAppButton
             message="Hola, quiero solicitar servicio técnico de PC"
             phone={"5493571595365"}
-            className="hidden md:flex items-center gap-2 bg-indigo-600 text-white hover:bg-indigo-700 focus:ring-4 focus:ring-indigo-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center"
+            className="md:flex items-center gap-2 bg-indigo-600 text-white hover:bg-indigo-700 focus:ring-4 focus:ring-indigo-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center"
           >
             Solicitar Servicio
           </WhatsAppButton>
