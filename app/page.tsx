@@ -26,7 +26,7 @@ export default function Home() {
           <div className="flex items-center gap-2 pl-4 md:pl-6">
             <span className="text-xl">
               <span className="font-black">G<span className="text-indigo-600">.</span></span>
-              <span className="font-bold hidden md:inline"> TecnoServicio</span>
+              <span className="font-bold hidden md:inline"> Soluciones Informáticas</span>
             </span>
           </div>
           <nav className="hidden md:flex gap-6">
@@ -204,7 +204,7 @@ export default function Home() {
           <div className="container px-4 md:px-6">
             <div className="flex flex-col items-center justify-center space-y-4 text-center">
               <div className="space-y-2">
-                <h2 className="text-3xl font-bold tracking-tighter sm:text-5xl">¿Por qué elegir <span className="font-black">G<span className="text-indigo-600">.</span></span> TecnoServicio?</h2>
+                <h2 className="text-3xl font-bold tracking-tighter sm:text-5xl">¿Por qué elegir <span className="font-black">G<span className="text-indigo-600">.</span></span> Soluciones Informáticas?</h2>
                 <p className="max-w-[900px] text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
                   Mi servicio se destaca por la calidad, rapidez y atención personalizada, siendo claro y transparente en cada paso del proceso.
                 </p>
@@ -472,10 +472,10 @@ export default function Home() {
         <div className="container flex flex-col items-center justify-between gap-4 md:h-24 md:flex-row">
           <div className="flex items-center gap-2 pl-4 md:pl-6">
             <span className="font-black">G<span className="text-indigo-600">.</span></span>
-            <span className="font-bold"> TecnoServicio</span>
+            <span className="font-bold"> Soluciones Informáticas</span>
           </div>
           <p className="text-center text-sm leading-loose text-muted-foreground md:text-left">
-            © {new Date().getFullYear()} G. TecnoServicio. Todos los derechos reservados.
+            © {new Date().getFullYear()} G. Soluciones Informáticas. Todos los derechos reservados.
           </p>
           <div className="flex items-center gap-4">
             <Link href="#" className="text-sm text-muted-foreground hover:underline underline-offset-4">

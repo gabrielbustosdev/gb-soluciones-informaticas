@@ -7,9 +7,9 @@ import { Analytics } from "@vercel/analytics/next"
 const inter = Inter({ subsets: ["latin"] })
 
 export const metadata = {
-  title: "TecnoServicio - Instalación de Windows y Actualización de PC",
+  title: "Soluciones Informáticas - Instalación de Windows y Actualización de PC",
   description:
-    "Servicio profesional de instalación de Windows, cambio de HDD a SSD e instalación de programas en tu ciudad.",
+    "Servicio profesional de instalación de Windows, cambio de HDD a SSD e instalación de programas en Rio Tercero.",
 }
 
 export default function RootLayout({
